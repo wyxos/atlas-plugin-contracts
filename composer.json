@@ -1,0 +1,21 @@
+{
+    "name": "wyxos/atlas-plugin-contracts",
+    "description": "Contracts shared between the Atlas app and external browse service plugins.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atlas\\Plugin\\Contracts\\": "src/"
+        }
+    },
+    "scripts": {
+        "packagist": [
+            "php publish-packagist.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stability": true
+}
